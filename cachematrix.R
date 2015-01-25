@@ -10,6 +10,7 @@ makeCacheMatrix <- function(x = numeric()) {
     x <<- y
     s <<- NULL
   }
+  
   ## Set the value of the matrix
   get <- function() x
   ## Set the value of the inverted matrix
